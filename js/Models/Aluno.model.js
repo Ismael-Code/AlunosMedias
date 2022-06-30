@@ -14,7 +14,7 @@ class AlunoModel {
     }
 
     generateId() {
-        AlunoModel.maxId + 1
+        return AlunoModel.maxId + 1
     }
 
     generateAvarege() {
