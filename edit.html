@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Import Google Icon Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Import materialize.css -->
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+
+    <style>
+        h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .underlined {
+        border-bottom: 3px solid currentColor;
+      }
+
+      .reproved {
+        background-color: red;
+      }
+
+      .aproved {
+        background-color: green;
+      }
+
+      .form-add {
+        background: #e3ecec;
+        padding-top: 0.75em;
+      }
+
+      .main-title {
+        margin-bottom: 0;
+      }
+
+      .input-field p {
+          margin: 0;
+      }
+    </style>
+
+    <title>Edição de notas</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero center card-panel materialize-red darken-4 white-text z-depth-3">
+            <h1 class="materialize-red-text text-lighten-3">
+                Notas trimestrais por matéria
+            </h1>
+        </div>
+
+        <h2 class="materialize-red-text text-lighten-2 underlined main-title">
+            Detalhes
+        </h2>
+
+        <form class="form-add" data-edit-aluno-form>
+            <div class="row">
+                
+                <div class="input-field col s12">
+                    <input type="text" id="first_name" class="validate" placeholder="Digite o nome do aluno">
+                    <label for="first_name" class="active">Nome do aluno</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <p>Notas por matéria </p>
+                </div>
+
+            </div>
+
+            <div data-edit-notas>
+
+
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <a href="index.html" class="btn">Cancelar</a>
+                    <button class="btn" type="submit" name="action">Salvar</button>
+                </div>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
