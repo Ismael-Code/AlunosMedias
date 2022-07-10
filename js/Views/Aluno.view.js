@@ -1,4 +1,4 @@
-class AlunosView {
+export class AlunosView {
     constructor(table, materias) {
         if(table === undefined) {
             throw Error('Table is undefined')

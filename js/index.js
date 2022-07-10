@@ -1,3 +1,8 @@
+import { AlunosService } from "./Services/Alunos.service.js"
+import { AlunosView } from "./Views/Aluno.view.js"
+import { MateriasService } from "./Services/Materias.service.js"
+import { AlunosController } from "./Controllers/Alunos.controller.js"
+
 const alunosService = new AlunosService()
 
 const alunosView = new AlunosView(

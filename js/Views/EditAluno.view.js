@@ -1,4 +1,4 @@
-class EditAlunoView {
+export class EditAlunoView {
     constructor(form, materias) {
         this.form = form
         this.materias = materias

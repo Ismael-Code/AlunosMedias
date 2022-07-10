@@ -5,6 +5,6 @@ function sum() {
     }, 0)
 }
 
-function avarege() {
+export function avarege() {
     return sum(...arguments) / arguments.length
 }
